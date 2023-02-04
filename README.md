@@ -9,12 +9,13 @@ Based on:
 > or at the linked location!
 
 - Keep individual `.gitignore` (e.g. `.dotfiles/nvim/.config/nvim/.gitignore`, to exclude `plugin/`)
-- Link to target by first navigating to `.dotfiles` and then either `stow *` or `stow <config>`
+- Link to target by first navigating to `.dotfiles` and then either `stow */` or `stow <config>`
 - You can easily have a versioned subdirectory (i.e. version `.dotfiles/nvim/.config/nvim`)
-- You can easily remove symlinks with stow (e.g. `stow -D .`)
+- You can easily remove symlinks with stow (e.g. `stow -D <what>`)
 
 What's the difference to `stow .`?
 - Equivalent to `stow --dir=~/.dotfiles --target=~/`
 - So this will literally symlink `nvim/.config/nvim/....` to your home -> we don't want that!
 
 > `stow */` will only link the immediate subdirectories.
+> `stow *` will complain about `README.md`
