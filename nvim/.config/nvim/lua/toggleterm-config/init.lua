@@ -1,5 +1,5 @@
 require("toggleterm").setup({
-	open_mapping = [[<space>ct]],
+	-- open_mapping = [[<space>ct]],
 	direction = "horizontal",
 	size = function(term)
 		if term.direction == "float" then
@@ -51,6 +51,7 @@ end
 
 local keymap = vim.keymap.set
 
+keymap("n", "<leader>ct", ":ToggleTerm<CR>", { noremap = true, silent = true, desc = "ToggleTerm" })
 keymap("n", "<leader>cr", _r_console_toggle, { noremap = true, silent = true, desc = "radian" })
 keymap("n", "<leader>cp", _i_python_toggle, { noremap = true, silent = true, desc = "ipython" })
 keymap("n", "<leader>G", _lazygit_toggle, { noremap = true, silent = true, desc = "Lazygit" })
