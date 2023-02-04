@@ -1,0 +1,26 @@
+{
+	"name": "example-snippets",
+	"contributes": {
+		"snippets": [
+			{
+				"language": [
+					"all"
+				],
+				"path": "./snippets/all.json"
+			},
+			{
+				"language": [
+					"lua"
+				],
+				"path": "./lua.json"
+			},
+            {
+                "language": [
+                    "r",
+                    "rmd"
+                ],
+                "path": "./snippets/r.json"
+            }
+		]
+	}
+}
