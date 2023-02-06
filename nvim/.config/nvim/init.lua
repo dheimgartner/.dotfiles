@@ -31,6 +31,6 @@ require("treesitter-config")
 
 require("nvimtree-config")
 
-require("toggleterm-config")
+-- require("toggleterm-config")
 
 require("slime-config")

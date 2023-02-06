@@ -109,10 +109,5 @@ return packer.startup(function(use)
 		wants = { "nvim-web-devicons" },
 	})
 
-	use({
-		"akinsho/toggleterm.nvim",
-		tag = "*",
-	})
-
     use("jpalardy/vim-slime")
 end)
