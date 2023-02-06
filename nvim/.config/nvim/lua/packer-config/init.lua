@@ -31,7 +31,7 @@ return packer.startup(function(use)
 	use("L3MON4D3/LuaSnip")
 
 	use({
-        "neovim/nvim-lspconfig", 
+        "neovim/nvim-lspconfig",
         requires = {
             -- Easily (if you want automatically) install LSP servers,
             -- DAP servers, linters and formatters.
