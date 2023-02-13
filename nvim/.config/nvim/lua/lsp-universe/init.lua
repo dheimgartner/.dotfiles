@@ -8,7 +8,7 @@ require("fidget").setup()
 -- The LSP settings can be configured in settings/<LSP>.lua
 local servers = {
     "pyright",
-    "sumneko_lua",  -- configure in settings
+    "lua_ls",  -- configure in settings
     "r_language_server",
 }
 
