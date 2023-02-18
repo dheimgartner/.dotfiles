@@ -35,6 +35,21 @@ dap.configurations.python = {
     }
 }
 
+dap.adapters.r = {
+    type = "executable",
+    command = "Rscript",
+    args = {"-e", "vscDebugger::"},
+}
+
+dap.configurations.r = {
+    {
+        type = "r",
+        request = "launch",
+        name = "Launch file",
+        program = "${file}",
+    }
+}
+
 -- TODO: remap with my helper.keymap and add doc
 vim.keymap.set("n", "<F5>", function() require("dap").continue() end)
 vim.keymap.set("n", "<F10>", function() require("dap").step_over() end)
