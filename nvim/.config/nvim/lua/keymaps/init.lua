@@ -32,6 +32,12 @@ keymap("n", "<C-k>", "<C-W>k", opts)
 keymap("n", "<C-l>", "<C-W>l", opts)
 keymap("n", "<C-c>", "<C-W>c", opts)
 
+-- Resizes
+keymap("n", "<C-Up>", ":resize +1<CR>", opts)
+keymap("n", "<C-Down>", ":resize -1<CR>", opts)
+keymap("n", "<C-Right>", ":vertical resize +1<CR>", opts)
+keymap("n", "<C-Left>", ":vertical resize -1<CR>", opts)
+
 -- Buffers
 keymap("n", "<C-n>", ":bnext<CR>", opts)
 keymap("n", "<C-p>", ":bprevious<CR>", opts)
