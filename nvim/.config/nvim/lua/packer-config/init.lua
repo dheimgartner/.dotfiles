@@ -110,4 +110,8 @@ return packer.startup(function(use)
 	})
 
     use("jpalardy/vim-slime")
+
+    use("mfussenegger/nvim-dap")
+    use("rcarriga/nvim-dap-ui")
+
 end)

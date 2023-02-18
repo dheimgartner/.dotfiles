@@ -34,3 +34,7 @@ require("nvimtree-config")
 -- require("toggleterm-config")
 
 require("slime-config")
+
+require("dap-config")
+
+require("dapui-config")
