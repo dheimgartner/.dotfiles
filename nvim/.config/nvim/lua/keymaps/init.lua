@@ -3,7 +3,8 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-local keymap = require("helpers").keymap
+local utils = require("utils")
+local keymap = utils.keymap
 
 local opts = { noremap = true, silent = true }
 

@@ -2,7 +2,7 @@
 require("telescope").setup()
 
 -- See `:help telescope.builtin`
-local keymap = require("helpers").keymap
+local keymap = require("utils").keymap
 
 local builtin = require("telescope.builtin")
 

@@ -50,7 +50,7 @@ dap.configurations.r = {
     }
 }
 
--- TODO: remap with my helper.keymap and add doc
+-- TODO: remap with my utils.keymap and add doc
 vim.keymap.set("n", "<F5>", function() require("dap").continue() end)
 vim.keymap.set("n", "<F10>", function() require("dap").step_over() end)
 vim.keymap.set("n", "<F11>", function() require("dap").step_into() end)
