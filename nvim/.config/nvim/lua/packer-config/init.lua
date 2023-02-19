@@ -13,6 +13,8 @@ return packer.startup(function(use)
 	-- Packer can manage itself
 	use("wbthomason/packer.nvim")
 
+    use(os.getenv("HOME") .. "/github/nvim_plugins/stackmap.nvim")
+
 	use("folke/tokyonight.nvim")
 	use({
 		"rose-pine/neovim",

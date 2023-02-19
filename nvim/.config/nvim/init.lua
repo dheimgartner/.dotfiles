@@ -1,5 +1,7 @@
 require("settings")
 
+require("globals")
+
 require("commands")
 
 require("keymaps")
@@ -15,6 +17,7 @@ require("telescope-config")
 -- require("which-key-config")
 
 -- require("themes.tokyonight")
+
 require("themes.rosepine")
 
 require("blankline-config")
