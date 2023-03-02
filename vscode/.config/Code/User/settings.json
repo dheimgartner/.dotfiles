@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "r.bracketedPaste": true,
+    "r.rterm.linux": "/home/dahe/.local/bin/radian",
+    "r.lsp.diagnostics": false
+}
