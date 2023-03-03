@@ -1,6 +1,7 @@
 {
     "workbench.colorTheme": "Default Dark+",
     "r.bracketedPaste": true,
-    "r.rterm.linux": "/home/dahe/.local/bin/radian",
-    "r.lsp.diagnostics": false
+    "r.lsp.diagnostics": false,
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "$HOME/.vimrc"
 }
