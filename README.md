@@ -19,3 +19,5 @@ What's the difference to `stow .`?
 
 > `stow */` will only link the immediate subdirectories.
 > `stow *` will complain about `README.md`
+> I would recommend only stowing individual .dotfiles -> i.e. stow vim and not stow */
+
