@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "r.bracketedPaste": true,
+    "r.lsp.diagnostics": false,
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "$HOME/.vimrc",
+    "[python]": {
+        "editor.formatOnType": true
+    }
+}
