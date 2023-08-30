@@ -1,8 +1,3 @@
-window:
-  opacity: 0.9
-  #decorations: none
-
-
 font:
   normal:
     family: JetBrainsMono Nerd Font
